@@ -1,7 +1,7 @@
 import torch
 import matplotlib.pyplot as plt
 from torch.autograd import Variable
-
+# 网络的保存和加载
 
 torch.manual_seed(1)        # 设置随机数种子
 
