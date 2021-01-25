@@ -17,6 +17,7 @@ class myNet(torch.nn.Module):  # 继承torch的Module
 net = myNet(n_feature=1,n_hidden=10,n_output=1)
 # print(net)
 
+
 # 随机生成y=x^2+b 并用Variable修饰
 x = torch.unsqueeze(torch.linspace(-1,1,100),dim=1)
 y = x.__pow__(2)+0.2*torch.rand(x.size())
