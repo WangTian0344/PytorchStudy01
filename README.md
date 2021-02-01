@@ -10,3 +10,4 @@ CNN         卷积神经网络
 Dropout     Dropout防止过拟合
 nn          简单神经网络
 RNN         循环神经网络
+Batch_Normalization 批标准化
